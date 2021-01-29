@@ -80,7 +80,8 @@
     1.  the number 1 (the first element in the array passed into modifyArray) and another function is passed into doSomething.
     2.  doSomething then takes num ( equal to 1 in this case), adds 2 to it, and passes the new value 3 into the function passed into it. The function passed into doSomething,named callback in the scope of doSomething, multiplies 3 by 2 and returns 6.
     3.  Then doSomething returns 6 as well and now we are back in modifyArray.
-    4.  The return value of doSomething (6) is pushed into newArr.
+    4.  The return value of doSomething (6) is pushed into newArr.\
+
 Thus, for each element in the array [1,2,3], modifyArray adds 2, multiplies the resulting value by 2, puts it into newArr, and returns newArr.
 20. code
 21. Output:\
