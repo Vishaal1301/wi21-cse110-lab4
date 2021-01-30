@@ -16,7 +16,7 @@
     
     B. student['Grad Year']
     
-    C. student.greeting() //why does it print an undefined
+    C. student.greeting()
     
     D. student['Favorite Teacher'].name
     
@@ -89,5 +89,5 @@ Thus, for each element in the array [1,2,3], modifyArray adds 2, multiplies the 
 21. Output:\
             1\
             4\
-            1\
+            3\
             2
