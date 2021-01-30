@@ -1,10 +1,9 @@
-Dev-Tools Debugging
+#### Dev-Tools Debugging
 1. screenshot
 2. screenshot
 3. The bug was that num1 and num2 were being concatenated as strings instead of being added together as numbers
 4. The fix would be to call Number(num1) and Number(num2) before adding them together. screenshot in repo.
-   
-Dev-Tools Network Tab
+#### Dev-Tools Network Tab
 1. citylots.json
 2. part2.js
 3. 11.7 MB
