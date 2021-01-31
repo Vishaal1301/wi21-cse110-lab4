@@ -84,7 +84,7 @@
     doSomething, multiplies 3 by 2 and returns 6.
     3.  Then doSomething returns 6 as well and now we are back in modifyArray.
     4.  The return value of doSomething (6) is pushed into newArr.\
-Thus, for each element in the array [1,2,3], modifyArray adds 2, multiplies the resulting value by 2, puts it into newArr, and returns newArr.\
+Thus, for each element in the array [1,2,3], modifyArray adds 2, multiplies the resulting value by 2, puts it into newArr, and returns newArr.
 20. code
 21. Output:\
             1\
